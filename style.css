@@ -1,0 +1,78 @@
+@import url('fonts/main_font.css');
+
+body {
+     /* Сбрасывание стандартных стилей и добавление шрифтов */
+        overflow: hidden;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'StratosSkyeng', sans-serif;
+        background-image: url("./images/background.jpg");
+}
+
+.content {
+        height: 100vh;
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding: 20px;
+margin: 0;
+    position: relative;
+}
+
+.center {
+    padding-left: calc(50% - 500px);
+    padding-right: calc(50% - 500px);
+}
+
+ /* Класс для расположения элементов в 1 ряд */
+.in-one-line { 
+    display: flex;
+     /* Отступ между элементами */
+    gap: 32px
+}
+
+a {
+    display: block;
+    background-color: #894AFF;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 23px;
+    position: absolute
+}
+
+.next {
+    top: 20px;                      
+    right: 20px;   
+}
+
+.past {
+    top: 20px;                      
+    left: 20px; 
+}
+
+.gallery img {
+    width: 45%;
+    border-radius: 12px;
+    margin: 16px 0;
+}
+
+
+h1, h2 {
+    margin: 0;  
+    padding: 60px 0;
+}
+
+    p {
+        font-size: 22px;
+        padding: 10px 0;
+    }
+
+    li {
+    font-size: 24px;
+        padding: 10px 0;
+    }
